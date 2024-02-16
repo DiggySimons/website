@@ -67,6 +67,27 @@
         <h2>About Us</h2>
         <p>This is a sad man.</p>
         <img src="images/DiggySimmons2013.jpg" alt="Example Image">
+        <audio id="mp3Player" controls autoplay>
+            <source src="X Files - Theme Song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    
+        <script>
+            var audio = document.getElementById('mp3Player');
+            function playAudio() {
+                audio.play();
+            }
+        </script>
+            <div class="snowflakes" aria-hidden="true">
+                <div class="snowflake">❅</div>
+                <div class="snowflake">❆</div>
+                <div class="snowflake">❅</div>
+                <div class="snowflake">❆</div>
+                <div class="snowflake">❅</div>
+                <div class="snowflake">❆</div>
+                <!-- Add more snowflakes if desired -->
+            </div>
+            <script src="script.js"></script>
     </section>
 
     <footer>
